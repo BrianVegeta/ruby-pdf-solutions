@@ -1,0 +1,38 @@
+GIT
+  remote: https://github.com/yob/pdf-reader.git
+  revision: 946559b06a381ba2651fd037afc95a24309e94e4
+  branch: main
+  specs:
+    pdf-reader (2.10.0)
+      Ascii85 (~> 1.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Ascii85 (1.1.0)
+    afm (0.2.2)
+    hashery (2.1.2)
+    pdf-core (0.9.0)
+    prawn (2.4.0)
+      pdf-core (~> 0.9.0)
+      ttfunk (~> 1.7)
+    prawn-templates (0.1.2)
+      pdf-reader (~> 2.0)
+      prawn (~> 2.2)
+    ruby-rc4 (0.1.5)
+    ttfunk (1.7.0)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  pdf-reader!
+  prawn
+  prawn-templates
+
+BUNDLED WITH
+   2.3.8
